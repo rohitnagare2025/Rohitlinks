@@ -1,53 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Rohit Nagare</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rohit Nagare Films</title>
 
 <style>
 
 body{
-font-family:Arial, sans-serif;
-background:white;
+margin:0;
+font-family: 'Segoe UI', sans-serif;
+background: linear-gradient(135deg,#f8f9fa,#e9ecef);
 text-align:center;
 padding:40px;
 }
 
+.container{
+max-width:420px;
+margin:auto;
+}
+
 .profile{
-width:130px;
-height:130px;
+width:140px;
+height:140px;
 border-radius:50%;
 object-fit:cover;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
 margin-bottom:15px;
 }
 
 h1{
-margin-bottom:5px;
+margin:10px 0 5px;
+font-size:28px;
 }
 
-p{
-color:#555;
+.username{
+color:#666;
 margin-bottom:30px;
 }
 
 .button{
 display:block;
-width:260px;
-margin:12px auto;
-padding:15px;
-border-radius:10px;
-font-size:17px;
-font-weight:bold;
 text-decoration:none;
-color:white;
+padding:16px;
+margin:12px 0;
+border-radius:12px;
+font-size:17px;
+font-weight:600;
+transition:0.3s;
+box-shadow:0 6px 20px rgba(0,0,0,0.15);
+}
+
+.button:hover{
+transform:scale(1.05);
 }
 
 .whatsapp{
 background:#25D366;
+color:white;
 }
 
 .instagram{
 background:#E1306C;
+color:white;
 }
 
 .snapchat{
@@ -57,6 +72,13 @@ color:black;
 
 .gmail{
 background:#4285F4;
+color:white;
+}
+
+.footer{
+margin-top:40px;
+font-size:13px;
+color:#888;
 }
 
 </style>
@@ -64,26 +86,26 @@ background:#4285F4;
 
 <body>
 
-<img src="profile.jpg" class="profile">
+<div class="container">
+
+<img src="27ded04dca7b21e45157c7755d97b2a4.jpeg" class="profile">
 
 <h1>Rohit Nagare</h1>
-<p>@rohitnagare.films</p>
+<div class="username">@rohitnagare.films</div>
 
-<a class="button whatsapp" href="https://wa.me/919359216267">
-WhatsApp
-</a>
+<a class="button whatsapp" href="https://wa.me/919359216267">WhatsApp Booking</a>
 
-<a class="button instagram" href="https://www.instagram.com/rohitnagare_films?igsh=MWtlMmJ2OXE2NDJwdw==">
-Instagram
-</a>
+<a class="button instagram" href="https://www.instagram.com/rohitnagare_films?igsh=MWtlMmJ2OXE2NDJwdw==">Instagram</a>
 
-<a class="button snapchat" href="https://snapchat.com/t/HNgwEcK4">
-Snapchat
-</a>
+<a class="button snapchat" href="https://snapchat.com/t/HNgwEcK4">Snapchat</a>
 
-<a class="button gmail" href="mailto:rnagare098@gmail.com">
-Gmail
-</a>
+<a class="button gmail" href="mailto:rnagare098@gmail.com">Email Me</a>
+
+<div class="footer">
+© Rohit Nagare Films
+</div>
+
+</div>
 
 </body>
 </html>
